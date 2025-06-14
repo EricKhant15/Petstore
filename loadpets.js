@@ -2,7 +2,7 @@ const pets = [
     { name: "Buddy", type: "Dog", age: 1, img: "img/dogs/dog01.jpg" },
     { name: "James", type: "Dog", age: 1, img: "img/dogs/dog02.jpg" },
     { name: "Sally", type: "Dog", age: 1, img: "img/dogs/dog03.jpg" },
-    { name: "Mittens", type: "Cat", age: 2, img: "img/cats/cat01.jpg" },
+    { name: "Mittens", type: "Cat", age: 1, img: "img/cats/cat01.jpg" },
     { name: "Kitten", type: "Cat", age: 3, img: "img/cats/cat02.jpg" },
     { name: "Sweeten", type: "Cat", age: 2, img: "img/cats/cat03.jpg" },
     { name: "Danny", type: "Capybara", age: 2, img: "img/capybaras/capybara01.jpg" },
