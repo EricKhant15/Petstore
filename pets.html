@@ -5,6 +5,7 @@
     <title>Pets</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Available Pets</h1>
@@ -16,9 +17,47 @@
     </header>
 
     <main>
-        <div id="all-pets"></div>
-    </main>
+        <section class="featured">
+            <h2>Featured Pets</h2>
+            <div style="display: flex; gap: 24px; justify-content: center">
+                Type:
+                <div style="display: flex;">
+                    <div>
+                        <input type="checkbox" id="type-dogs" name="pet-type" value="Dog" checked /> Dogs
+                    </div>
+                    <div>
+                        <input type="checkbox" id="type-cats" name="pet-type" value="Cat" checked /> Cats
+                    </div>
+                    <div>
+                        <input type="checkbox" id="type-capybaras" name="pet-type" value="Capybara" checked />
+                        Capybaras
+                    </div>
+                    <div>
+                        <input type="checkbox" id="type-birds" name="pet-type" value="Bird" checked /> Birds
+                    </div>
+                </div>
+            </div>
 
+            <div class="pet-list" id="pet-list">
+                <!-- <div class="pet">
+                    <img src="img/dog.jpg" alt="Cute Dog">
+                    <p>Charlie - Golden Retriever</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div>
+                <div class="pet">
+                    <img src="img/cat.webp" alt="Cute Cat">
+                    <p>Milo - British Shorthair</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div> -->
+            </div>
+        </section>
+        <section class="contact">
+            <!-- <a id="contact"/> -->
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="loadpets.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
